@@ -49,3 +49,12 @@ body {
 .banner-right img {
   max-width: 80%;
 }
+
+/* dream-big-sec======================================================================= */
+.dream-big-sec {
+  display: flex;
+  padding: 60px 25px;
+  background-image: url(/img/dream-bg.png);
+  background-position: right 100px;
+  background-repeat: no-repeat;
+}
