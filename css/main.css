@@ -1,0 +1,51 @@
+body {
+  font-family: "Poppins", sans-serif;
+  font-family: "Raleway", sans-serif;
+  font-family: "Roboto", sans-serif;
+  font-family: "Roboto Condensed", sans-serif;
+  font-family: "Roboto Mono", monospace;
+  font-family: "Rubik", sans-serif;
+  font-family: "The Nautigal", cursive;
+  font-family: "Yanone Kaffeesatz", sans-serif;
+  margin: 0;
+}
+.banner-sec {
+  display: flex;
+  padding: 60px 25px;
+  background-image: url(/img/top-banner.png);
+  background-repeat: no-repeat;
+}
+.banner-left {
+  max-width: 50%;
+  margin-right: 60px;
+}
+.banner-left h1 {
+  font-size: 80px;
+}
+.banner-left span {
+  color: orange;
+}
+.banner-left p {
+  color: grey;
+  font-size: 20px;
+  line-height: 24px;
+}
+.main-btn {
+  padding: 15px 60px;
+  border-radius: 7px;
+  background-image: linear-gradient(tomato, orange);
+  border: none;
+}
+.main-btn a {
+  text-decoration: none;
+  color: #ffff;
+  font-weight: 700;
+  font-size: 18px;
+}
+.banner-right {
+  max-width: 50%;
+  text-align: center;
+}
+.banner-right img {
+  max-width: 80%;
+}
