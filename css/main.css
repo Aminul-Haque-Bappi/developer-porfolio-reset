@@ -11,7 +11,7 @@ body {
 }
 .banner-sec {
   display: flex;
-  padding: 60px 25px;
+  padding: 60px 60px;
   background-image: url(/img/top-banner.png);
   background-repeat: no-repeat;
 }
@@ -53,8 +53,85 @@ body {
 /* dream-big-sec======================================================================= */
 .dream-big-sec {
   display: flex;
-  padding: 60px 25px;
+  padding: 60px 60px;
   background-image: url(/img/dream-bg.png);
-  background-position: right 100px;
+  background-position: right 220px;
   background-repeat: no-repeat;
+}
+
+.dream-big-sec h1 {
+  font-size: 60px;
+}
+.dream-big-sec p {
+  color: grey;
+  font-size: 20px;
+  line-height: 24px;
+}
+.dream-big-left {
+  max-width: 50%;
+  margin-right: 60px;
+}
+/* experience sec========================================================================= */
+.experience-sec {
+  padding: 60px 60px;
+  background-image: url(/img/exp-bg.png);
+  background-repeat: no-repeat;
+  background-position: 0px 320px;
+  background-size: 10em;
+}
+.experience-container {
+  display: flex;
+  padding: 60px 60px;
+}
+.experience-sec h1 {
+  font-size: 80px;
+}
+.experience-left {
+  padding: 0px 20px;
+  width: 50%;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+    rgba(0, 0, 0, 0.3) 0px 30px 60px -30px,
+    rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+  margin-right: 30px;
+  border-left: 10px solid orangered;
+  border-radius: 10px;
+}
+.experience-left h1 {
+  font-size: 60px;
+}
+.experience-left h2 {
+  color: orange;
+}
+.experience-left p {
+  color: grey;
+  font-size: 20px;
+  line-height: 24px;
+}
+.experience-right {
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+    rgba(0, 0, 0, 0.3) 0px 30px 60px -30px,
+    rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+  width: 50%;
+  padding: 0px 20px;
+  border-left: 10px solid blue;
+  border-radius: 10px;
+}
+.experience-right h1 {
+  font-size: 60px;
+}
+.experience-right h2 {
+  color: orange;
+}
+.experience-right p {
+  color: grey;
+  font-size: 20px;
+  line-height: 24px;
+}
+/* footer===============================================================================*/
+footer {
+  text-align: center;
+  color: grey;
+  font-size: 20px;
+  line-height: 24px;
+  padding: 80px 0;
 }
